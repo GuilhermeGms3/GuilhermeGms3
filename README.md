@@ -30,7 +30,15 @@ Status......: Learning by building and shipping projects
 ## Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,javascript,java,bash,linux,git,github,vscode,mysql,postgres,docker" />
+  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,bash,powershell,linux,docker,kubernetes,aws,azure,githubactions,gitlab,git,github,postgres,mysql,redis,prometheus,grafana,vscode" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white" alt="Wazuh" />
+  <img src="https://img.shields.io/badge/FortiGate-EE3124?style=for-the-badge&logo=fortinet&logoColor=white" alt="FortiGate" />
+  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" alt="Splunk" />
+  <img src="https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elastic" />
+  <img src="https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Nmap" />
 </p>
 
 ## Highlight Projects
