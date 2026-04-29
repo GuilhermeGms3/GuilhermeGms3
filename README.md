@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDQ3MmM5M3NhNnN1cXVrZ3NqeHgxdHBncDZ3eDlqMWM2M2Fxa3h4NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlNaQ6gWfllcjDO/giphy.gif" width="900" height="170" alt="Matrix header" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=38&pause=700&color=39FF14&center=true&vCenter=true&width=760&lines=Guilherme+Aires" alt="Name typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&pause=800&color=39FF14&center=true&vCenter=true&width=900&repeat=false&lines=Guilherme+Aires" alt="Matrix tech name" />
 </p>
 
 <p align="center">
@@ -29,12 +25,8 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWVscTd2eDkyazV2NmwyMHJ2Y2hqOW5paWptYnd5MXl2NTN4ZXQ0ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13HgwGsXF0aiGY/giphy.gif" width="560" alt="Coding gif" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&center=true&vCenter=true&width=900&lines=Software+Engineering+Student;Automation+and+Cybersecurity+Enthusiast;JavaScript+%7C+Python+%7C+Shell;Building+practical+tools+for+real+problems" alt="Typing SVG" />
-</p>
-
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=220&color=7CFC00&vCenter=true&width=980&lines=%5BOK%5D+kernel+loaded;%5BOK%5D+network+online;%5BOK%5D+profile+service+started;Name%3A+Guilherme+Aires;Username%3A+GuilhermeGms3;Role%3A+Software+Engineering+Student;Focus%3A+Automation+%7C+Backend+%7C+Security;Status%3A+Building+real+projects+every+week" alt="Fast boot whoami animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=120&color=7CFC00&vCenter=true&width=1100&repeat=false&lines=%24+whoami;Name........%3A+Gabriel+S.;Username....%3A+RukamDev;Role........%3A+Software+Engineering+Student;Focus.......%3A+Backend+%7C+Frontend+%7C+Data+Analysis+%7C+Automation;Mindset.....%3A+Smart+problem-solving%2C+automation+and+data+security" alt="Boot whoami" />
 </p>
 
 ## About
@@ -48,37 +40,123 @@
 
 <table>
   <tr>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=python&fill=1b2333&animation=spin&svgfill=ffd43b" alt="Python"/><br/>Python</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=javascript&fill=1b2333&animation=spin&svgfill=f7df1e" alt="JavaScript"/><br/>JavaScript</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=cplusplus&fill=1b2333&animation=spin&svgfill=5c8cff" alt="C++"/><br/>C++</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=django&fill=1b2333&animation=spin&svgfill=ffffff" alt="Django"/><br/>Django</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=github&fill=1b2333&animation=spin&svgfill=ffffff" alt="GitHub"/><br/>Github</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=fastapi&fill=1b2333&animation=spin&svgfill=00c7b7" alt="Rest API"/><br/>Rest API</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=docker&fill=1b2333&animation=spin&svgfill=2496ed" alt="Docker"/><br/>Docker</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=nginx&fill=1b2333&animation=spin&svgfill=20c997" alt="Nginx"/><br/>Nginx</td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" height="65" />
+      <br>C#
+    </td>
+    <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
+      </a>
+      <br>Python
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
+      <br>Javascript
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="65" height="65" />
+      <br>C++
+    </td>
+       <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" />
+      <br>Django
+    </td>
+       <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="GitHub" />
+      <br>Github
+    </td>
+          <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="Rest API" />
+      <br>Rest API
+    </td>
+          <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65" height="65" alt="Rest API" />
+      <br>Docker
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="50" height="50" />
+      <br>Nginx
+    </td>
   </tr>
   <tr>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=git&fill=1b2333&animation=spin&svgfill=f05032" alt="Git"/><br/>Git</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=gitlab&fill=1b2333&animation=spin&svgfill=fc6d26" alt="GitLab"/><br/>GitLab</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=html5&fill=1b2333&animation=spin&svgfill=e34f26" alt="HTML"/><br/>HTML</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=css3&fill=1b2333&animation=spin&svgfill=1572b6" alt="CSS"/><br/>CSS</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=bootstrap&fill=1b2333&animation=spin&svgfill=7952b3" alt="Bootstrap"/><br/>Bootstrap</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=tailwindcss&fill=1b2333&animation=spin&svgfill=38bdf8" alt="Tailwind"/><br/>Tailwind</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=jquery&fill=1b2333&animation=spin&svgfill=0769ad" alt="JQuery"/><br/>JQuery</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=postgresql&fill=1b2333&animation=spin&svgfill=336791" alt="PostgreSQL"/><br/>PostgreSQL</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=dotnet&fill=1b2333&animation=spin&svgfill=512bd4" alt=".NET"/><br/>ASP.NET</td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+      <br>Git
+    </td>
+    <td align="center"  width="96">
+        <img src="https://skillicons.dev/icons?i=gitlab" width="48" height="48" alt="GitLab" />
+      <br>GitLab
+    </td>
+    <td align="center"  width="96">
+        <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
+      <br>HTML
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="css" />
+      <br>CSS
+    </td>
+    <td align="center"  width="96">
+        <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="bootstrap" />
+      <br>Bootstrap
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="tailwind" />
+      <br>Tailwind
+    </td>
+        <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jquery" />
+      <br>JQuery
+    </td>
+        <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="jquery" />
+      <br>PostgreSQL
+    </td>
+            <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt="ASP.NET Core" />
+      <br>ASP.NET
+    </td>
   </tr>
-  <tr>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=redis&fill=1b2333&animation=spin&svgfill=dc382d" alt="Redis"/><br/>Redis</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=postman&fill=1b2333&animation=spin&svgfill=ff6c37" alt="Postman"/><br/>Postman</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=linux&fill=1b2333&animation=spin&svgfill=fcc624" alt="Linux"/><br/>Linux</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=dart&fill=1b2333&animation=spin&svgfill=0175c2" alt="Dart"/><br/>Dart</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=rabbitmq&fill=1b2333&animation=spin&svgfill=ff6600" alt="RabbitMQ"/><br/>RabbitMQ</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=sentry&fill=1b2333&animation=spin&svgfill=7c69ef" alt="Sentry"/><br/>sentry</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=celery&fill=1b2333&animation=spin&svgfill=a4ce4e" alt="Celery"/><br/>Celery</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=docusaurus&fill=1b2333&animation=spin&svgfill=3ecc5f" alt="Docusaurus"/><br/>Docusaurus</td>
-    <td align="center"><img width="70" src="https://readme-components.vercel.app/api?component=logo&logo=pytest&fill=1b2333&animation=spin&svgfill=0a9edc" alt="Pytest"/><br/>Pytest</td>
+   <tr>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
+      <br>Redis
+    </td>
+        <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
+      <br>Postman
+    </td>
+            <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+      <br>Linux
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=dart" width="48" height="48" alt="dart" />
+      <br>Dart
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=rabbitmq" width="48" height="48" alt="dart" />
+      <br>RabbitMQ
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=sentry" width="48" height="48" alt="dart" />
+      <br>sentry
+    </td>
+    <td align="center" width="96">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Celery_logo.png" width="48" height="48" alt="dart" />
+      <br>Celery
+    </td>
+    <td align="center" width="96">
+        <img src="https://docusaurus.io/img/docusaurus_keytar.svg" width="48" height="48" alt="dart" />
+      <br>Docusaurus
+    </td>
+    <td align="center" width="96">
+        <img src="https://bruhin.software/img/logos/pytest.svg" width="40" height="40" alt="dart" />
+      <br>Pytest
+    </td>
   </tr>
+ <tr>
+ </tr>
 </table>
 
 ## Highlight Projects
