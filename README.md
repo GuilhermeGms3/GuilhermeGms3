@@ -1,10 +1,26 @@
 <h1 align="center">Guilherme Aires</h1>
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/guilhermegms3/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://gitlab.com/GuilhermeGms3">
+    <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
+  </a>
+  <a href="https://github.com/GuilhermeGms3">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/GuilhermeGms3">
     <img src="https://img.shields.io/badge/GitHub-GuilhermeGms3-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=GuilhermeGms3&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWVscTd2eDkyazV2NmwyMHJ2Y2hqOW5paWptYnd5MXl2NTN4ZXQ0ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13HgwGsXF0aiGY/giphy.gif" width="560" alt="Coding gif" />
 </p>
 
 <p align="center">
@@ -30,7 +46,21 @@ Status......: Learning by building and shipping projects
 ## Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,bash,powershell,linux,docker,kubernetes,aws,azure,githubactions,gitlab,git,github,postgres,mysql,redis,prometheus,grafana,vscode" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=python&fill=black&animation=spin&svgfill=15d8fe" alt="Python" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=javascript&fill=black&animation=spin&svgfill=f7df1e" alt="JavaScript" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=typescript&fill=black&animation=spin&svgfill=3178c6" alt="TypeScript" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=docker&fill=black&animation=spin&svgfill=2496ed" alt="Docker" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=kubernetes&fill=black&animation=spin&svgfill=326ce5" alt="Kubernetes" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=amazonaws&fill=black&animation=spin&svgfill=ff9900" alt="AWS" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=azuredevops&fill=black&animation=spin&svgfill=0078d7" alt="Azure" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=postgresql&fill=black&animation=spin&svgfill=336791" alt="PostgreSQL" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=redis&fill=black&animation=spin&svgfill=dc382d" alt="Redis" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=prometheus&fill=black&animation=spin&svgfill=e6522c" alt="Prometheus" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=grafana&fill=black&animation=spin&svgfill=f46800" alt="Grafana" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=gitlab&fill=black&animation=spin&svgfill=fc6d26" alt="GitLab" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=github&fill=black&animation=spin&svgfill=ffffff" alt="GitHub" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=linux&fill=black&animation=spin&svgfill=fcc624" alt="Linux" />
+  <img src="https://readme-components.vercel.app/api?component=logo&logo=powershell&fill=black&animation=spin&svgfill=5391fe" alt="PowerShell" />
 </p>
 
 <p align="left">
