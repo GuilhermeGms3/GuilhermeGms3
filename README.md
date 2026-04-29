@@ -33,14 +33,24 @@
 </p>
 
 <div align="center">
+  <table>
+    <tr>
+      <td>
 <pre>
-$ whoami
-Name........: Gabriel S.
-Username....: RukamDev
-Role........: Software Engineering Student
-Focus.......: Backend | Frontend | Data Analysis | Automation
-Mindset.....: Smart problem-solving, automation and data security
+?? ?? ??
+
+? whoami
+User......: victor.mercury
+Role......: Cybersecurity Analyst | DevSecOps
+Org.......: ZeroDay Research Lab
+Academic..: Software Engineering
+Focus.....: Threat Hunting | Detection as Code | Automation
+Status....: SYSTEM ONLINE  FIREWALL ACTIVE
+Location..: Undisclosed Location
 </pre>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## About
@@ -173,17 +183,6 @@ Mindset.....: Smart problem-solving, automation and data security
  </tr>
 </table>
 
-## Highlight Projects
-
-### [firewall-automation](https://github.com/GuilhermeGms3/firewall-automation)
-Firewall automation with IPTables and UFW, designed to reduce manual work and improve security consistency.
-
-### [Impressora_Xerox](https://github.com/GuilhermeGms3/Impressora_Xerox)
-Data extraction workflow for Power BI integration, making reporting and monitoring easier.
-
-### [Crud-em-java](https://github.com/GuilhermeGms3/Crud-em-java)
-CRUD project focused on software development fundamentals and code organization.
-
 ## GitHub Metrics
 
 <p>
@@ -197,40 +196,50 @@ CRUD project focused on software development fundamentals and code organization.
 
 ## Extra Pins
 
-### ⚡ Engineered Solutions
-### [SOC Automation Lab](https://github.com/GuilhermeGms3/soc-automation-lab)
+### ? Engineered Solutions
 
-<img src="https://img.shields.io/badge/SecOps-Automation-0A0F1F?style=for-the-badge&logo=githubactions&logoColor=41FF77" />
-<img src="https://img.shields.io/badge/Wazuh-Detection-0A0F1F?style=for-the-badge&logo=elastic&logoColor=41FF77" />
-<img src="https://img.shields.io/badge/Python-Orchestration-0A0F1F?style=for-the-badge&logo=python&logoColor=41FF77" />
-
-> Practical SOC lab with detection rules, alert forwarding and incident response playbook.
-
-### [Firewall Automation](https://github.com/GuilhermeGms3/firewall-automation)
-
-<img src="https://img.shields.io/badge/Firewall-Automation-0A0F1F?style=for-the-badge&logo=linux&logoColor=41FF77" />
-<img src="https://img.shields.io/badge/UFW-IPTables-0A0F1F?style=for-the-badge&logo=gnu-bash&logoColor=41FF77" />
-<img src="https://img.shields.io/badge/Security-Hardening-0A0F1F?style=for-the-badge&logo=fortinet&logoColor=41FF77" />
-
-> Rule automation for secure baseline and faster operations in Linux environments.
-
-### [Ticket API](https://github.com/GuilhermeGms3/ticket-api)
-
-<img src="https://img.shields.io/badge/FastAPI-Backend-0A0F1F?style=for-the-badge&logo=fastapi&logoColor=41FF77" />
-<img src="https://img.shields.io/badge/JWT-Auth-0A0F1F?style=for-the-badge&logo=jsonwebtokens&logoColor=41FF77" />
-<img src="https://img.shields.io/badge/SQLAlchemy-DataLayer-0A0F1F?style=for-the-badge&logo=sqlite&logoColor=41FF77" />
-
-> Backend service for ticket lifecycle management with auth, CRUD and testable API flow.
-
-## 2026 Goals
-
-- Build and publish more end-to-end automation projects.
-- Improve testing and observability in personal repositories.
-- Contribute consistently to open source.
-
-## Contact
-
-- GitHub: [@GuilhermeGms3](https://github.com/GuilhermeGms3)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>??? <a href="https://github.com/GuilhermeGms3/soc-automation-lab">SOC Automation Lab</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Wazuh-005571?style=flat-square&logo=elastic&logoColor=white" />
+        <img src="https://img.shields.io/badge/Detection_as_Code-1f6feb?style=flat-square" />
+        <img src="https://img.shields.io/badge/Automation-2ea043?style=flat-square" />
+      </p>
+      <blockquote>Practical SOC lab with detection rules, alert forwarding and incident response playbook.</blockquote>
+    </td>
+    <td width="50%" valign="top">
+      <h3>? <a href="https://github.com/GuilhermeGms3/ticket-api">Ticket API</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/JWT-6f42c1?style=flat-square" />
+        <img src="https://img.shields.io/badge/SQLAlchemy-d97706?style=flat-square" />
+      </p>
+      <blockquote>Backend API with auth, ticket lifecycle, and production-oriented service structure.</blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>??? <a href="https://github.com/GuilhermeGms3/firewall-automation">Firewall Automation</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white" />
+        <img src="https://img.shields.io/badge/UFW-2563eb?style=flat-square" />
+        <img src="https://img.shields.io/badge/IPTables-dc2626?style=flat-square" />
+      </p>
+      <blockquote>Automation-first hardening workflow for secure baseline and faster operations.</blockquote>
+    </td>
+    <td width="50%" valign="top">
+      <h3>??? <a href="https://github.com/GuilhermeGms3/Crud-em-java">CRUD em Java</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
+        <img src="https://img.shields.io/badge/Spring-6db33f?style=flat-square&logo=spring&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black" />
+      </p>
+      <blockquote>Integrated full-stack application focused on practical software engineering fundamentals.</blockquote>
+    </td>
+  </tr>
+</table>
 
 ---
 
