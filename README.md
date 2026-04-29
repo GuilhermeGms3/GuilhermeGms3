@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&pause=800&color=39FF14&center=true&vCenter=true&width=900&repeat=false&lines=Guilherme+Aires" alt="Matrix tech name" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjdwc3U0b29oaXhmdXEyYjJ5N2x6bmtoN2M4ZmNrcDUwMXh2ZnVnMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7TKsQ8UQ7WQ0b4ha/giphy.gif" width="900" height="150" alt="Matrix header" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&pause=700&color=41FF77&center=true&vCenter=true&width=900&repeat=false&lines=Guilherme+Aires" alt="Tech name animation" />
 </p>
 
 <p align="center">
@@ -26,8 +29,19 @@
 </p>
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=120&color=7CFC00&vCenter=true&width=1100&repeat=false&lines=%24+whoami;Name........%3A+Gabriel+S.;Username....%3A+RukamDev;Role........%3A+Software+Engineering+Student;Focus.......%3A+Backend+%7C+Frontend+%7C+Data+Analysis+%7C+Automation;Mindset.....%3A+Smart+problem-solving%2C+automation+and+data+security" alt="Boot whoami" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=70&color=7CFC00&vCenter=true&width=900&repeat=false&lines=%5B+++++++%5D+Booting+profile...;%5B+++++++%5D+Loading+identity...;%5B+++++++%5D+whoami+ready" alt="Boot whoami loader" />
 </p>
+
+<div align="center">
+<pre>
+$ whoami
+Name........: Gabriel S.
+Username....: RukamDev
+Role........: Software Engineering Student
+Focus.......: Backend | Frontend | Data Analysis | Automation
+Mindset.....: Smart problem-solving, automation and data security
+</pre>
+</div>
 
 ## About
 
@@ -183,15 +197,30 @@ CRUD project focused on software development fundamentals and code organization.
 
 ## Extra Pins
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeGms3&repo=soc-automation-lab&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeGms3&repo=firewall-automation&theme=tokyonight&hide_border=true" />
-</p>
+### ⚡ Engineered Solutions
+### [SOC Automation Lab](https://github.com/GuilhermeGms3/soc-automation-lab)
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeGms3&repo=ticket-api&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeGms3&repo=Crud-em-java&theme=tokyonight&hide_border=true" />
-</p>
+<img src="https://img.shields.io/badge/SecOps-Automation-0A0F1F?style=for-the-badge&logo=githubactions&logoColor=41FF77" />
+<img src="https://img.shields.io/badge/Wazuh-Detection-0A0F1F?style=for-the-badge&logo=elastic&logoColor=41FF77" />
+<img src="https://img.shields.io/badge/Python-Orchestration-0A0F1F?style=for-the-badge&logo=python&logoColor=41FF77" />
+
+> Practical SOC lab with detection rules, alert forwarding and incident response playbook.
+
+### [Firewall Automation](https://github.com/GuilhermeGms3/firewall-automation)
+
+<img src="https://img.shields.io/badge/Firewall-Automation-0A0F1F?style=for-the-badge&logo=linux&logoColor=41FF77" />
+<img src="https://img.shields.io/badge/UFW-IPTables-0A0F1F?style=for-the-badge&logo=gnu-bash&logoColor=41FF77" />
+<img src="https://img.shields.io/badge/Security-Hardening-0A0F1F?style=for-the-badge&logo=fortinet&logoColor=41FF77" />
+
+> Rule automation for secure baseline and faster operations in Linux environments.
+
+### [Ticket API](https://github.com/GuilhermeGms3/ticket-api)
+
+<img src="https://img.shields.io/badge/FastAPI-Backend-0A0F1F?style=for-the-badge&logo=fastapi&logoColor=41FF77" />
+<img src="https://img.shields.io/badge/JWT-Auth-0A0F1F?style=for-the-badge&logo=jsonwebtokens&logoColor=41FF77" />
+<img src="https://img.shields.io/badge/SQLAlchemy-DataLayer-0A0F1F?style=for-the-badge&logo=sqlite&logoColor=41FF77" />
+
+> Backend service for ticket lifecycle management with auth, CRUD and testable API flow.
 
 ## 2026 Goals
 
@@ -206,3 +235,11 @@ CRUD project focused on software development fundamentals and code organization.
 ---
 
 <p align="center"><i>"Good code solves problems. Great code also stays maintainable."</i></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:153B2E,50:1D6F54,100:2FA46A" alt="footer wave" />
+</p>
