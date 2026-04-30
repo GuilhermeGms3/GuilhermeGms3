@@ -37,16 +37,16 @@
     <tr>
       <td>
 <pre>
-?? ?? ??
+● ● ●
 
-? whoami
-User......: victor.mercury
-Role......: Cybersecurity Analyst | DevSecOps
-Org.......: ZeroDay Research Lab
+❯ whoami
+User......: GuilhermeGms3
+Role......: Software Engineering Student | DevSecOps
+Org.......: Personal Research Lab
 Academic..: Software Engineering
-Focus.....: Threat Hunting | Detection as Code | Automation
+Focus.....: Backend | Frontend | Data Analysis | Automation
 Status....: SYSTEM ONLINE  FIREWALL ACTIVE
-Location..: Undisclosed Location
+Mindset...: Smart problem-solving, automation and data security
 </pre>
       </td>
     </tr>
@@ -55,10 +55,34 @@ Location..: Undisclosed Location
 
 ## About
 
-- Focused on automation, backend development and security fundamentals.
-- Enjoy turning repetitive operational tasks into reliable tools.
-- Currently improving software engineering, clean architecture and DevSecOps practices.
-- Open to collaboration on scripting, automation and infrastructure projects.
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <b>⚙️ Automation-Driven Builder</b><br/>
+        Focused on automation, backend development and security fundamentals.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>🧩 Problem Solver</b><br/>
+        Enjoy turning repetitive operational tasks into reliable tools.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>📚 Continuous Learning</b><br/>
+        Currently improving software engineering, clean architecture and DevSecOps practices.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>🤝 Collaboration Ready</b><br/>
+        Open to collaboration on scripting, automation and infrastructure projects.
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Tech Stack
 
@@ -196,12 +220,12 @@ Location..: Undisclosed Location
 
 ## Extra Pins
 
-### ? Engineered Solutions
+### ⚡ Engineered Solutions
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>??? <a href="https://github.com/GuilhermeGms3/soc-automation-lab">SOC Automation Lab</a></h3>
+      <h3>🛰️ <a href="https://github.com/GuilhermeGms3/soc-automation-lab">SOC Automation Lab</a></h3>
       <p>
         <img src="https://img.shields.io/badge/Wazuh-005571?style=flat-square&logo=elastic&logoColor=white" />
         <img src="https://img.shields.io/badge/Detection_as_Code-1f6feb?style=flat-square" />
@@ -210,7 +234,7 @@ Location..: Undisclosed Location
       <blockquote>Practical SOC lab with detection rules, alert forwarding and incident response playbook.</blockquote>
     </td>
     <td width="50%" valign="top">
-      <h3>? <a href="https://github.com/GuilhermeGms3/ticket-api">Ticket API</a></h3>
+      <h3>⚡ <a href="https://github.com/GuilhermeGms3/ticket-api">Ticket API</a></h3>
       <p>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
         <img src="https://img.shields.io/badge/JWT-6f42c1?style=flat-square" />
@@ -221,7 +245,7 @@ Location..: Undisclosed Location
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>??? <a href="https://github.com/GuilhermeGms3/firewall-automation">Firewall Automation</a></h3>
+      <h3>🛡️ <a href="https://github.com/GuilhermeGms3/firewall-automation">Firewall Automation</a></h3>
       <p>
         <img src="https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white" />
         <img src="https://img.shields.io/badge/UFW-2563eb?style=flat-square" />
@@ -230,7 +254,7 @@ Location..: Undisclosed Location
       <blockquote>Automation-first hardening workflow for secure baseline and faster operations.</blockquote>
     </td>
     <td width="50%" valign="top">
-      <h3>??? <a href="https://github.com/GuilhermeGms3/Crud-em-java">CRUD em Java</a></h3>
+      <h3>👁️ <a href="https://github.com/GuilhermeGms3/Crud-em-java">CRUD em Java</a></h3>
       <p>
         <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
         <img src="https://img.shields.io/badge/Spring-6db33f?style=flat-square&logo=spring&logoColor=white" />
