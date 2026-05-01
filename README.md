@@ -12,7 +12,7 @@
   <a href="https://gitlab.com/GuilhermeGms3">
     <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
   </a>
-  <a href="https://github.com/GuilhermeGms3">
+  <a href="https://terminal-core-six.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
 </p>
