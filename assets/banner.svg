@@ -1,0 +1,85 @@
+<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GuilhermeGms3 animated terminal banner</title>
+  <desc id="desc">Animated cyber terminal banner for the GitHub profile.</desc>
+  <style>
+    .terminal { fill: #05070d; stroke: #163d42; stroke-width: 1.4; }
+    .panel { fill: #071018; stroke: #1b5d64; stroke-width: 1.1; }
+    .panel2 { fill: #0a0d17; stroke: #31235e; stroke-width: 1.1; }
+    .muted { fill: #6d7b83; font: 600 14px "Fira Code", "Consolas", monospace; }
+    .prompt { fill: #00f0ff; font: 700 18px "Fira Code", "Consolas", monospace; }
+    .name { fill: #f4fbff; font: 800 44px "Inter", "Segoe UI", sans-serif; letter-spacing: .3px; }
+    .role { fill: #dffcff; font: 700 17px "Fira Code", "Consolas", monospace; }
+    .alias { fill: #ffffff; font: 800 15px "Fira Code", "Consolas", monospace; }
+    .scan { stroke: #00f0ff; stroke-width: 2; opacity: .55; animation: pulse 2.4s ease-in-out infinite; }
+    .violet { stroke: #8b5cf6; stroke-width: 2; opacity: .7; animation: pulse 2.4s ease-in-out infinite reverse; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    .float { animation: float 3.8s ease-in-out infinite; }
+    .glow { filter: drop-shadow(0 0 10px #00f0ff) drop-shadow(0 0 16px #8b5cf6); }
+    .progress { animation: grow 3.2s ease-in-out infinite; transform-origin: 0 0; }
+    .shine { animation: slide 4.5s linear infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 50% { opacity: 1; } }
+    @keyframes float { 50% { transform: translateY(-6px); } }
+    @keyframes grow { 0%, 100% { transform: scaleX(.28); } 50% { transform: scaleX(1); } }
+    @keyframes slide { from { transform: translateX(-260px); } to { transform: translateX(960px); } }
+  </style>
+
+  <rect width="960" height="260" fill="#05070b"/>
+  <rect class="shine" y="0" width="260" height="260" fill="url(#shineGradient)" opacity=".18"/>
+  <rect x="28" y="22" width="904" height="198" rx="25" class="terminal"/>
+
+  <circle cx="56" cy="50" r="4" fill="#ff5f56"/>
+  <circle cx="70" cy="50" r="4" fill="#ffbd2e"/>
+  <circle cx="84" cy="50" r="4" fill="#27c93f"/>
+
+  <rect x="58" y="78" width="435" height="118" rx="18" class="panel"/>
+  <text x="82" y="118" class="prompt">$ whoami</text>
+  <text x="82" y="157" class="name">GuilhermeGms3</text>
+  <text x="82" y="184" class="role">Fullstack Developer . Automation . Data . Security</text>
+  <rect x="82" y="188" width="164" height="30" rx="9" class="panel2"/>
+  <text x="96" y="208" class="alias">GuilhermeGms3</text>
+  <rect x="209" y="198" width="10" height="3" fill="#f4fbff" class="cursor"/>
+
+  <line x1="420" y1="106" x2="472" y2="106" stroke="#22313a" stroke-width="2"/>
+  <line x1="436" y1="120" x2="472" y2="120" stroke="#22313a" stroke-width="2"/>
+  <line x1="288" y1="172" x2="326" y2="172" class="scan"/>
+  <line x1="333" y1="172" x2="349" y2="172" class="violet"/>
+  <line x1="356" y1="172" x2="370" y2="172" stroke="#22313a" stroke-width="3"/>
+  <rect x="288" y="188" width="170" height="3" fill="#12252b"/>
+  <rect x="288" y="188" width="170" height="3" fill="#00f0ff" class="progress" opacity=".65"/>
+
+  <rect x="548" y="78" width="330" height="118" rx="18" class="panel2"/>
+  <path d="M564 104V86H596" class="scan"/>
+  <path d="M846 86H862V112" class="violet"/>
+  <path d="M564 154V180H596" class="violet"/>
+  <path d="M862 154V180H830" class="scan"/>
+
+  <g class="float glow">
+    <rect x="608" y="104" width="94" height="72" rx="18" fill="#081b22" stroke="#1d6570"/>
+    <path d="M643 134c0 15 24 15 24 0s-24-15-24 0Z" stroke="#46fff4" stroke-width="5"/>
+    <path d="M626 154h59c-4 14-14 22-30 22s-25-8-29-22Z" stroke="#46fff4" stroke-width="5"/>
+    <path d="M636 126c-10-14 12-18 4-32" stroke="#46fff4" stroke-width="5" stroke-linecap="round"/>
+    <path d="M655 126c-10-14 12-18 4-32" stroke="#46fff4" stroke-width="5" stroke-linecap="round"/>
+    <path d="M674 126c-10-14 12-18 4-32" stroke="#46fff4" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g class="float glow" style="animation-delay: .4s">
+    <rect x="744" y="104" width="94" height="72" rx="18" fill="#15112a" stroke="#3c2a68"/>
+    <rect x="773" y="126" width="42" height="34" rx="13" fill="#62f6ff"/>
+    <rect x="785" y="116" width="32" height="22" rx="9" fill="#8b5cf6"/>
+    <circle cx="785" cy="143" r="4" fill="#14101f"/>
+    <circle cx="806" cy="143" r="4" fill="#14101f"/>
+    <rect x="789" y="155" width="18" height="5" rx="2.5" fill="#14101f"/>
+    <line x1="816" y1="112" x2="816" y2="100" stroke="#00f0ff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="480" y="248" text-anchor="middle" class="prompt">Backend . Frontend . Security . Automation</text>
+
+  <defs>
+    <linearGradient id="shineGradient" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

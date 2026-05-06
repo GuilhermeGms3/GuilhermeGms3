@@ -1,88 +1,56 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjdwc3U0b29oaXhmdXEyYjJ5N2x6bmtoN2M4ZmNrcDUwMXh2ZnVnMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7TKsQ8UQ7WQ0b4ha/giphy.gif" width="900" height="150" alt="Matrix header" />
+  <img src="./assets/banner.svg" width="100%" alt="GuilhermeGms3 animated terminal banner" />
 </p>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&pause=700&color=41FF77&center=true&vCenter=true&width=900&repeat=false&lines=Guilherme+Aires" alt="Tech name animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1000&color=00FFFF&center=true&vCenter=true&width=960&lines=Fullstack+Developer+%E2%80%A2+Automation+%E2%80%A2+Data+%E2%80%A2+Security;Backend+%E2%80%A2+Frontend+%E2%80%A2+DevSecOps+%E2%80%A2+Clean+Logic;Building+useful+systems+with+constant+evolution" alt="Typing animation" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/guilhermegms3/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=050505" alt="LinkedIn" />
   </a>
   <a href="https://gitlab.com/GuilhermeGms3">
-    <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
+    <img src="https://img.shields.io/badge/GITLAB-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white&labelColor=050505" alt="GitLab" />
   </a>
   <a href="https://terminal-core-six.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050505" alt="Portfolio" />
   </a>
-</p>
-
-<p align="center">
   <a href="https://github.com/GuilhermeGms3">
-    <img src="https://img.shields.io/badge/GitHub-GuilhermeGms3-181717?style=for-the-badge&logo=github" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GUILHERMEGMS3-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=050505" alt="GitHub" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=GuilhermeGms3&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=GuilhermeGms3&label=PROFILE+VIEWS&color=00bcd4&style=for-the-badge" alt="Profile views" />
 </p>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWVscTd2eDkyazV2NmwyMHJ2Y2hqOW5paWptYnd5MXl2NTN4ZXQ0ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13HgwGsXF0aiGY/giphy.gif" width="560" alt="Coding gif" />
-</p>
-
-<p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=70&color=7CFC00&vCenter=true&width=900&repeat=false&lines=%5B+++++++%5D+Booting+profile...;%5B+++++++%5D+Loading+identity...;%5B+++++++%5D+whoami+ready" alt="Boot whoami loader" />
-</p>
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
+<table width="100%">
+  <tr>
+    <td width="58%" valign="top">
+      <h3><code>root@github:~$ ./profile --scan</code></h3>
 <pre>
-● ● ●
+&gt; user      : GuilhermeGms3
+&gt; alias     : GuilhermeGms3
+&gt; role      : Software Engineering Student | DevSecOps
+&gt; focus     : Backend | Frontend | Data Analysis | Automation
+&gt; status    : SYSTEM ONLINE | FIREWALL ACTIVE
+&gt; mindset   : Smart problem-solving, automation and data security
 
-❯ whoami
-User......: GuilhermeGms3
-Role......: Software Engineering Student | DevSecOps
-Org.......: Personal Research Lab
-Academic..: Software Engineering
-Focus.....: Backend | Frontend | Data Analysis | Automation
-Status....: SYSTEM ONLINE  FIREWALL ACTIVE
-Mindset...: Smart problem-solving, automation and data security
+root@github:~$ &#9608;
 </pre>
-      </td>
-    </tr>
-  </table>
-</div>
+    </td>
+    <td width="42%" valign="top">
+      <h3><code>about.me</code></h3>
+<pre>
+Software Engineering student focused on
+automation, backend systems, security
+fundamentals and useful interfaces.
 
-## About
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <b>⚙️ Automation-Driven Builder</b><br/>
-        Focused on automation, backend development and security fundamentals.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>🧩 Problem Solver</b><br/>
-        Enjoy turning repetitive operational tasks into reliable tools.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>📚 Continuous Learning</b><br/>
-        Currently improving software engineering, clean architecture and DevSecOps practices.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>🤝 Collaboration Ready</b><br/>
-        Open to collaboration on scripting, automation and infrastructure projects.
-      </td>
-    </tr>
-  </table>
-</div>
+current_mode : learn -&gt; build -&gt; refine
+mission      : turn ideas into reliable tools
+approach     : clarity, logic, consistency
+</pre>
+    </td>
+  </tr>
+</table>
 
 ## Tech Stack
 
