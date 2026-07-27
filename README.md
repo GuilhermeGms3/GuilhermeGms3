@@ -226,12 +226,7 @@ approach     : clarity, security, consistency
 ## GitHub Activity
 
 <p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GuilhermeGms3&theme=github_dark" alt="GitHub contribution summary" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GuilhermeGms3&theme=github_dark" alt="Repositories per language" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GuilhermeGms3&theme=github_dark" alt="GitHub account statistics" />
+  <img width="100%" src="./assets/github-activity.svg" alt="GuilhermeGms3 GitHub repository activity" />
 </p>
 
 ## Contribution Flow
