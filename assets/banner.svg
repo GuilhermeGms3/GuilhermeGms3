@@ -35,7 +35,7 @@
   <rect x="58" y="78" width="435" height="118" rx="18" class="panel"/>
   <text x="82" y="118" class="prompt">$ whoami</text>
   <text x="82" y="157" class="name">GuilhermeGms3</text>
-  <text x="82" y="184" class="role">Fullstack Developer . Automation . Data . Security</text>
+  <text x="82" y="184" class="role">NOC . DevOps . Backend . Security</text>
   <rect x="82" y="188" width="164" height="30" rx="9" class="panel2"/>
   <text x="96" y="208" class="alias">GuilhermeGms3</text>
   <rect x="209" y="198" width="10" height="3" fill="#f4fbff" class="cursor"/>
@@ -73,7 +73,7 @@
     <line x1="816" y1="112" x2="816" y2="100" stroke="#00f0ff" stroke-width="4" stroke-linecap="round"/>
   </g>
 
-  <text x="480" y="248" text-anchor="middle" class="prompt">Backend . Frontend . Security . Automation</text>
+  <text x="480" y="248" text-anchor="middle" class="prompt">Observe . Automate . Secure . Improve</text>
 
   <defs>
     <linearGradient id="shineGradient" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
