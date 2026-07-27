@@ -113,7 +113,7 @@ def generate() -> str:
 
     recent_text = "  /  ".join(recent) if recent else "building the next project"
 
-    return f"""<svg width="900" height="300" viewBox="0 0 900 300" fill="none"
+    svg = f"""<svg width="900" height="300" viewBox="0 0 900 300" fill="none"
   xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">{escape(username)} GitHub activity</title>
   <desc id="desc">Self-hosted repository, follower and language statistics.</desc>
@@ -158,6 +158,7 @@ def generate() -> str:
   </defs>
 </svg>
 """
+    return "\n".join(line.rstrip() for line in svg.splitlines()) + "\n"
 
 
 def main() -> None:
