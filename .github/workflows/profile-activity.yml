@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate self-hosted activity card
         run: python .github/scripts/generate_activity.py
