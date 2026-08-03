@@ -49,10 +49,10 @@
 
   <text x="28" y="184" class="muted">LANGUAGE DISTRIBUTION</text>
   <clipPath id="barClip"><rect x="28" y="197" width="844" height="10" rx="5"/></clipPath>
-  <g clip-path="url(#barClip)"><rect x="28.00" y="197" width="329.55" height="10" fill="#00e5ff"/><rect x="357.55" y="197" width="247.75" height="10" fill="#7c3aed"/><rect x="605.30" y="197" width="187.02" height="10" fill="#2ea043"/><rect x="792.32" y="197" width="56.65" height="10" fill="#f59e0b"/><rect x="848.98" y="197" width="16.42" height="10" fill="#f43f5e"/><rect x="865.39" y="197" width="6.61" height="10" fill="#3b82f6"/></g>
-  <circle cx="30" cy="227" r="4" fill="#00e5ff"/><text x="42" y="231" class="legend">TypeScript 39%</text><circle cx="315" cy="227" r="4" fill="#7c3aed"/><text x="327" y="231" class="legend">HTML 29%</text><circle cx="600" cy="227" r="4" fill="#2ea043"/><text x="612" y="231" class="legend">JavaScript 22%</text><circle cx="30" cy="252" r="4" fill="#f59e0b"/><text x="42" y="256" class="legend">Java 7%</text><circle cx="315" cy="252" r="4" fill="#f43f5e"/><text x="327" y="256" class="legend">CSS 2%</text><circle cx="600" cy="252" r="4" fill="#3b82f6"/><text x="612" y="256" class="legend">Python 0.8%</text>
+  <g clip-path="url(#barClip)"><rect x="28.00" y="197" width="317.28" height="10" fill="#00e5ff"/><rect x="345.28" y="197" width="239.33" height="10" fill="#7c3aed"/><rect x="584.61" y="197" width="201.45" height="10" fill="#2ea043"/><rect x="786.06" y="197" width="61.53" height="10" fill="#f59e0b"/><rect x="847.59" y="197" width="18.07" height="10" fill="#f43f5e"/><rect x="865.66" y="197" width="6.34" height="10" fill="#3b82f6"/></g>
+  <circle cx="30" cy="227" r="4" fill="#00e5ff"/><text x="42" y="231" class="legend">TypeScript 38%</text><circle cx="315" cy="227" r="4" fill="#7c3aed"/><text x="327" y="231" class="legend">HTML 28%</text><circle cx="600" cy="227" r="4" fill="#2ea043"/><text x="612" y="231" class="legend">JavaScript 24%</text><circle cx="30" cy="252" r="4" fill="#f59e0b"/><text x="42" y="256" class="legend">Java 7%</text><circle cx="315" cy="252" r="4" fill="#f43f5e"/><text x="327" y="256" class="legend">CSS 2%</text><circle cx="600" cy="252" r="4" fill="#3b82f6"/><text x="612" y="256" class="legend">Python 0.8%</text>
 
-  <text x="28" y="284" class="muted">recent signals: muse-studio  /  kos-your-life-s-canvas  /  Portifolio-</text>
+  <text x="28" y="284" class="muted">recent signals: muse-studio  /  tsf-hub  /  kos-your-life-s-canvas</text>
 
   <defs>
     <linearGradient id="scanGradient" x1="0" y1="0" x2="180" y2="0">
