@@ -178,9 +178,81 @@ approach     : clarity, security, consistency
  <tr>
  </tr>
 </table>
+
+## Frameworks & Libraries
+
+<table width="100%">
+  <tr>
+    <td width="22%"><strong>Backend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
+      <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%"><strong>Interfaces</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/ReactPy-20232A?style=for-the-badge&logo=python&logoColor=61DAFB" alt="ReactPy" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%"><strong>Data & Automation</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
+      <img src="https://img.shields.io/badge/BeautifulSoup-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="BeautifulSoup" />
+    </td>
+  </tr>
+</table>
+
 ## Engineering Showcase
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/GuilhermeGms3/muse-studio">Muse Studio</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React 19" />
+        <img src="https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot 4" />
+        <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21" />
+      </p>
+      <blockquote>Adaptive learning path for guitar, acoustic guitar, keyboard and bass, with structured practice and progress tracking.</blockquote>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/GuilhermeGms3/psyos-aura">PsyOS Aura</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React 19" />
+        <img src="https://img.shields.io/badge/TanStack-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      </p>
+      <blockquote>Copilot for psychologists with an emotional-inference engine, session workspace and decision-support dashboards.</blockquote>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/GuilhermeGms3/hub-jornada-infrasec">Hub Jornada InfraSec</a></h3>
+      <p>
+        <a href="https://guilhermegms3.github.io/hub-jornada-infrasec/">
+          <img src="https://img.shields.io/badge/LIVE-GitHub_Pages-2EA043?style=flat-square&logo=githubpages&logoColor=white" alt="Open live Hub Jornada InfraSec" />
+        </a>
+        <img src="https://img.shields.io/badge/12_Weeks-1F6FEB?style=flat-square" alt="12-week journey" />
+        <img src="https://img.shields.io/badge/CCNA_%7C_AWS_%7C_Kubernetes-7C3AED?style=flat-square" alt="CCNA, AWS and Kubernetes" />
+        <img src="https://img.shields.io/badge/Labs_%26_Exams-2EA043?style=flat-square" alt="Labs and exams" />
+      </p>
+      <blockquote>Guided certification journey with content, adaptive exams, practical labs and portfolio evidence for InfraSec careers.</blockquote>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/GuilhermeGms3/aws-cicd-blueprint">AWS CI/CD Blueprint</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+        <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
+        <img src="https://img.shields.io/badge/ECS_Fargate-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS ECS Fargate" />
+      </p>
+      <blockquote>Security-gated pipeline for testing, container publishing and automated deployment to AWS ECS Fargate.</blockquote>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/GuilhermeGms3/noc-incident-sentinel">NOC Incident Sentinel</a></h3>
@@ -192,33 +264,13 @@ approach     : clarity, security, consistency
       <blockquote>HTTP, TCP and DNS checks with alert routing, operational status endpoint, dashboard and incident runbook.</blockquote>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/GuilhermeGms3/aws-cicd-blueprint">AWS CI/CD Blueprint</a></h3>
-      <p>
-        <img src="https://github.com/GuilhermeGms3/aws-cicd-blueprint/actions/workflows/ci-cd.yml/badge.svg" alt="AWS CI/CD workflow status" />
-        <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
-        <img src="https://img.shields.io/badge/ECS_Fargate-FF9900?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS ECS Fargate" />
-      </p>
-      <blockquote>Tests, security gates, container build, ECR publishing and automated ECS rollout defined as code.</blockquote>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/GuilhermeGms3/network-monitor">Network Monitor</a></h3>
       <p>
         <img src="https://img.shields.io/badge/SNMP-0A66C2?style=flat-square" alt="SNMP" />
         <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
       </p>
-      <blockquote>Network telemetry collector for CPU, uptime and interface traffic, with baseline availability alerts.</blockquote>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/GuilhermeGms3/soc-automation-lab">SOC Automation Lab</a></h3>
-      <p>
-        <img src="https://github.com/GuilhermeGms3/soc-automation-lab/actions/workflows/ci.yml/badge.svg" alt="SOC Automation Lab CI status" />
-        <img src="https://img.shields.io/badge/Wazuh-005571?style=flat-square&logo=elastic&logoColor=white" alt="Wazuh" />
-        <img src="https://img.shields.io/badge/Detection_as_Code-2EA043?style=flat-square" alt="Detection as Code" />
-      </p>
-      <blockquote>Detection rules, alert forwarding and a practical incident-response playbook for a reproducible SOC lab.</blockquote>
+      <blockquote>SNMP telemetry for CPU, uptime and interface traffic, with Prometheus metrics and baseline availability alerts.</blockquote>
     </td>
   </tr>
 </table>

@@ -20,6 +20,7 @@ COLORS = [
     "#f43f5e",
     "#3b82f6",
 ]
+EXCLUDED_LANGUAGES = {"HTML", "CSS", "SCSS", "Less"}
 
 
 def api_get(path: str) -> object:
@@ -66,7 +67,13 @@ def generate() -> str:
             language_bytes[language] = language_bytes.get(language, 0) + int(size)
 
     top_languages = sorted(
-        language_bytes.items(), key=lambda item: item[1], reverse=True
+        (
+            item
+            for item in language_bytes.items()
+            if item[0] not in EXCLUDED_LANGUAGES
+        ),
+        key=lambda item: item[1],
+        reverse=True,
     )[:6]
     language_total = sum(size for _, size in top_languages) or 1
     recent = [repo["name"] for repo in owned_repos[:3]]
@@ -142,7 +149,7 @@ def generate() -> str:
 
   {''.join(metric_cards)}
 
-  <text x="28" y="184" class="muted">LANGUAGE DISTRIBUTION</text>
+  <text x="28" y="184" class="muted">APPLICATION LANGUAGES</text>
   <clipPath id="barClip"><rect x="28" y="197" width="844" height="10" rx="5"/></clipPath>
   <g clip-path="url(#barClip)">{''.join(bar_parts)}</g>
   {''.join(legend_parts)}
