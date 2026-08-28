@@ -39,7 +39,7 @@
     <g transform="translate(464 78)">
       <rect width="196" height="78" rx="13" class="metric-card"/>
       <text x="18" y="27" class="metric-label">FOLLOWERS</text>
-      <text x="18" y="59" class="metric-value">11</text>
+      <text x="18" y="59" class="metric-value">12</text>
     </g>
     <g transform="translate(682 78)">
       <rect width="196" height="78" rx="13" class="metric-card"/>
@@ -49,10 +49,10 @@
 
   <text x="28" y="184" class="muted">APPLICATION LANGUAGES</text>
   <clipPath id="barClip"><rect x="28" y="197" width="844" height="10" rx="5"/></clipPath>
-  <g clip-path="url(#barClip)"><rect x="28.00" y="197" width="341.41" height="10" fill="#00e5ff"/><rect x="369.41" y="197" width="299.79" height="10" fill="#7c3aed"/><rect x="669.20" y="197" width="192.50" height="10" fill="#2ea043"/><rect x="861.69" y="197" width="7.24" height="10" fill="#f59e0b"/><rect x="868.94" y="197" width="1.74" height="10" fill="#f43f5e"/><rect x="870.68" y="197" width="1.32" height="10" fill="#3b82f6"/></g>
-  <circle cx="30" cy="227" r="4" fill="#00e5ff"/><text x="42" y="231" class="legend">TypeScript 40%</text><circle cx="315" cy="227" r="4" fill="#7c3aed"/><text x="327" y="231" class="legend">JavaScript 36%</text><circle cx="600" cy="227" r="4" fill="#2ea043"/><text x="612" y="231" class="legend">Java 23%</text><circle cx="30" cy="252" r="4" fill="#f59e0b"/><text x="42" y="256" class="legend">Python 0.9%</text><circle cx="315" cy="252" r="4" fill="#f43f5e"/><text x="327" y="256" class="legend">PowerShell 0.2%</text><circle cx="600" cy="252" r="4" fill="#3b82f6"/><text x="612" y="256" class="legend">Lua 0.2%</text>
+  <g clip-path="url(#barClip)"><rect x="28.00" y="197" width="332.22" height="10" fill="#00e5ff"/><rect x="360.22" y="197" width="269.73" height="10" fill="#7c3aed"/><rect x="629.95" y="197" width="214.19" height="10" fill="#2ea043"/><rect x="844.14" y="197" width="18.06" height="10" fill="#f59e0b"/><rect x="862.20" y="197" width="8.06" height="10" fill="#f43f5e"/><rect x="870.26" y="197" width="1.74" height="10" fill="#3b82f6"/></g>
+  <circle cx="30" cy="227" r="4" fill="#00e5ff"/><text x="42" y="231" class="legend">JavaScript 39%</text><circle cx="315" cy="227" r="4" fill="#7c3aed"/><text x="327" y="231" class="legend">TypeScript 32%</text><circle cx="600" cy="227" r="4" fill="#2ea043"/><text x="612" y="231" class="legend">Java 25%</text><circle cx="30" cy="252" r="4" fill="#f59e0b"/><text x="42" y="256" class="legend">Kotlin 2%</text><circle cx="315" cy="252" r="4" fill="#f43f5e"/><text x="327" y="256" class="legend">Python 1.0%</text><circle cx="600" cy="252" r="4" fill="#3b82f6"/><text x="612" y="256" class="legend">PowerShell 0.2%</text>
 
-  <text x="28" y="284" class="muted">recent signals: Portifolio-  /  kiseki-library-releases  /  hub-jornada-infrasec</text>
+  <text x="28" y="284" class="muted">recent signals: kiseki-library-android  /  Portifolio-  /  kiseki-library-releases</text>
 
   <defs>
     <linearGradient id="scanGradient" x1="0" y1="0" x2="180" y2="0">
