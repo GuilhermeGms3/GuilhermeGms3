@@ -49,10 +49,10 @@
 
   <text x="28" y="184" class="muted">APPLICATION LANGUAGES</text>
   <clipPath id="barClip"><rect x="28" y="197" width="844" height="10" rx="5"/></clipPath>
-  <g clip-path="url(#barClip)"><rect x="28.00" y="197" width="314.86" height="10" fill="#00e5ff"/><rect x="342.86" y="197" width="281.61" height="10" fill="#7c3aed"/><rect x="624.47" y="197" width="218.44" height="10" fill="#2ea043"/><rect x="842.92" y="197" width="18.86" height="10" fill="#f59e0b"/><rect x="861.77" y="197" width="8.41" height="10" fill="#f43f5e"/><rect x="870.18" y="197" width="1.82" height="10" fill="#3b82f6"/></g>
-  <circle cx="30" cy="227" r="4" fill="#00e5ff"/><text x="42" y="231" class="legend">JavaScript 37%</text><circle cx="315" cy="227" r="4" fill="#7c3aed"/><text x="327" y="231" class="legend">TypeScript 33%</text><circle cx="600" cy="227" r="4" fill="#2ea043"/><text x="612" y="231" class="legend">Java 26%</text><circle cx="30" cy="252" r="4" fill="#f59e0b"/><text x="42" y="256" class="legend">Kotlin 2%</text><circle cx="315" cy="252" r="4" fill="#f43f5e"/><text x="327" y="256" class="legend">Python 1.0%</text><circle cx="600" cy="252" r="4" fill="#3b82f6"/><text x="612" y="256" class="legend">PowerShell 0.2%</text>
+  <g clip-path="url(#barClip)"><rect x="28.00" y="197" width="320.91" height="10" fill="#00e5ff"/><rect x="348.91" y="197" width="278.40" height="10" fill="#7c3aed"/><rect x="627.30" y="197" width="215.94" height="10" fill="#2ea043"/><rect x="843.25" y="197" width="18.64" height="10" fill="#f59e0b"/><rect x="861.89" y="197" width="8.32" height="10" fill="#f43f5e"/><rect x="870.21" y="197" width="1.79" height="10" fill="#3b82f6"/></g>
+  <circle cx="30" cy="227" r="4" fill="#00e5ff"/><text x="42" y="231" class="legend">JavaScript 38%</text><circle cx="315" cy="227" r="4" fill="#7c3aed"/><text x="327" y="231" class="legend">TypeScript 33%</text><circle cx="600" cy="227" r="4" fill="#2ea043"/><text x="612" y="231" class="legend">Java 26%</text><circle cx="30" cy="252" r="4" fill="#f59e0b"/><text x="42" y="256" class="legend">Kotlin 2%</text><circle cx="315" cy="252" r="4" fill="#f43f5e"/><text x="327" y="256" class="legend">Python 1.0%</text><circle cx="600" cy="252" r="4" fill="#3b82f6"/><text x="612" y="256" class="legend">PowerShell 0.2%</text>
 
-  <text x="28" y="284" class="muted">recent signals: kiseki-library-releases  /  muse-studio  /  Impressora_Xerox</text>
+  <text x="28" y="284" class="muted">recent signals: hub-jornada-infrasec  /  kiseki-library-releases  /  muse-studio</text>
 
   <defs>
     <linearGradient id="scanGradient" x1="0" y1="0" x2="180" y2="0">
