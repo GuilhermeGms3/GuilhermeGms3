@@ -201,50 +201,89 @@ def link_asset(name: str, label: str, code: str, accent: str) -> None:
 def render_stats(data: dict[str, object]) -> None:
     metrics = [
         ("REPOSITORIES", data["repositories"]), ("STARS", data["stars"]),
-        ("CONTRIBUTIONS / 12M", data["contributions"]), ("PULL REQUESTS", data["pull_requests"]),
-        ("FOLLOWERS", data["followers"]), ("FORKS", data["forks"]),
+        ("CONTRIBUTIONS / 12M", data["contributions"]),
     ]
     cards = []
     for index, (label, value) in enumerate(metrics):
-        x, y = 28 + (index % 3) * 282, 68 + (index // 3) * 88
+        x, y = 28 + index * 282, 68
         cards.append(f'''<g transform="translate({x} {y})"><rect width="260" height="70" rx="10" fill="{PANEL}" stroke="{LINE}"/><text x="16" y="24" class="mono" font-size="10" fill="{MUTED}">{label}</text><text x="16" y="54" class="mono" font-size="25" font-weight="800" fill="{TEXT}">{value}</text><circle cx="239" cy="18" r="4" fill="{TEAL}"/></g>''')
     languages = list(data["languages"].items())[:6]
     total = sum(value for _, value in languages) or 1
     colors, bars, legend, cursor = [CYAN, PURPLE, TEAL, AMBER, BLUE, RED], [], [], 0.0
     for index, (language, size) in enumerate(languages):
         width, percent = 824 * size / total, size / total * 100
-        bars.append(f'<rect x="{28 + cursor:.2f}" y="274" width="{width:.2f}" height="10" fill="{colors[index]}"/>')
-        lx, ly = 30 + (index % 3) * 282, 311 + (index // 3) * 24
+        bars.append(f'<rect x="{28 + cursor:.2f}" y="180" width="{width:.2f}" height="10" fill="{colors[index]}"/>')
+        lx, ly = 30 + (index % 3) * 282, 217 + (index // 3) * 24
         legend.append(f'<circle cx="{lx}" cy="{ly - 4}" r="4" fill="{colors[index]}"/><text x="{lx + 12}" y="{ly}" class="mono" font-size="11" fill="{MUTED}">{esc(language)} {percent:.0f}%</text>')
         cursor += width
     body = f'''<text x="28" y="34" class="mono" font-size="12" fill="{TEAL}">$ telemetry --window 12m</text>
   <text x="852" y="34" text-anchor="end" class="mono" font-size="10" fill="{MUTED}">UPDATED {esc(data['updated'])}</text>
-  {''.join(cards)}<text x="28" y="258" class="mono" font-size="10" fill="{MUTED}">APPLICATION LANGUAGE DISTRIBUTION</text>
-  <clipPath id="bar"><rect x="28" y="274" width="824" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">{''.join(bars)}</g>{''.join(legend)}'''
-    write("stats.svg", shell(880, 370, "GitHub telemetry", "Repository and language statistics", body))
+  {''.join(cards)}<text x="28" y="164" class="mono" font-size="10" fill="{MUTED}">APPLICATION LANGUAGE DISTRIBUTION</text>
+  <clipPath id="bar"><rect x="28" y="180" width="824" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">{''.join(bars)}</g>{''.join(legend)}'''
+    write("stats.svg", shell(880, 276, "GitHub telemetry", "Repository and language statistics", body))
 
 
 def render_city(data: dict[str, object]) -> None:
     days = data.get("calendar", [])[-371:]
-    start = min((dt.date.fromisoformat(day["date"]) for day in days), default=dt.date.today())
     maximum = max((int(day["contributionCount"]) for day in days), default=1) or 1
-    cells = []
-    for day in days:
-        date, count = dt.date.fromisoformat(day["date"]), int(day["contributionCount"])
-        if not count:
-            continue
-        week, weekday = (date - start).days // 7, int(day.get("weekday", date.weekday()))
-        x, y, height = 434 + (week - weekday) * 7.2, 98 + (week + weekday) * 3.7, 8 + 48 * (count / maximum) ** 0.55
-        color = CYAN if count / maximum > .55 else TEAL if count / maximum > .2 else "#176b68"
-        cells.append(f'''<g><path d="M{x:.1f} {y:.1f}l6 -3 6 3-6 3Z" fill="{color}"/><path d="M{x:.1f} {y:.1f}v{-height:.1f}l6 3v{height:.1f}l-6 3Z" fill="{color}" opacity=".55"/><path d="M{x + 12:.1f} {y:.1f}v{-height:.1f}l-6 3v{height:.1f}l6 3Z" fill="{color}" opacity=".8"/></g>''')
-    body = f'''<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#081827"/><stop offset="1" stop-color="{BG}"/></linearGradient></defs>
-  <rect x="16" y="16" width="848" height="408" rx="12" fill="url(#sky)"/>
-  <text x="34" y="49" class="mono" font-size="12" fill="{TEAL}">$ contributions --render city</text>
-  <text x="34" y="82" class="ui" font-size="22" font-weight="800" fill="{TEXT}">OPERATIONS SKYLINE</text>
-  <text x="34" y="106" class="mono" font-size="11" fill="{MUTED}">one tower per active day · height reflects activity</text>
-  <path d="M68 350L430 158l382 190-372 62Z" fill="#07131d" stroke="{LINE}"/>{''.join(cells)}
-  <text x="34" y="400" class="mono" font-size="11" fill="{MUTED}">SIGNAL COUNT: {esc(data['contributions'])} CONTRIBUTIONS / LAST 12 MONTHS</text>'''
-    write("contribution-city.svg", shell(880, 440, "Contribution city", "Isometric city generated from GitHub contributions", body))
+    dated_days = [(dt.date.fromisoformat(day["date"]), day) for day in days]
+    first_date = min((date for date, _ in dated_days), default=dt.date.today())
+    active_days = sum(1 for _, day in dated_days if int(day["contributionCount"]) > 0)
+    busiest_date, busiest = max(
+        ((date, int(day["contributionCount"])) for date, day in dated_days),
+        key=lambda item: item[1],
+        default=(dt.date.today(), 0),
+    )
+
+    stars = []
+    for index in range(46):
+        x = 468 + ((index * 83) % 344)
+        y = 102 + ((index * 47) % 150)
+        radius = .7 + (index % 3) * .25
+        stars.append(f'<circle cx="{x}" cy="{y}" r="{radius}" fill="{TEXT}" opacity="{.28 + (index % 5) * .1:.2f}"/>')
+
+    buildings = []
+    for date, day in dated_days:
+        count = int(day["contributionCount"])
+        week = (date - first_date).days // 7
+        weekday = int(day.get("weekday", date.weekday()))
+        cx = 92 + (week + weekday) * 12.5
+        cy = 282 + (week - weekday) * 6.25
+        ratio = count / maximum
+        height = 10 if count == 0 else 17 + 78 * ratio ** .52
+        roof = "#123246" if count == 0 else BLUE if ratio < .18 else TEAL if ratio < .45 else CYAN
+        left = "#0b2231" if count == 0 else "#123047"
+        right = "#071a27" if count == 0 else "#0b2233"
+        top_y = cy - height
+        windows = []
+        if count:
+            levels = max(1, int((height - 8) // 8))
+            for level in range(levels):
+                wy = cy - 7 - level * 8
+                if (date.toordinal() + level) % 3:
+                    windows.append(f'<path d="M{cx - 9:.1f} {wy:.1f}l4 2v3l-4 -2Z" fill="{CYAN}" opacity=".75"/>')
+                if (date.toordinal() + level) % 4:
+                    windows.append(f'<path d="M{cx + 5:.1f} {wy + 2:.1f}l4 -2v3l-4 2Z" fill="{TEAL}" opacity=".7"/>')
+        buildings.append((cy, f'''<g>
+  <path d="M{cx - 12.5:.1f} {cy:.1f}L{cx:.1f} {cy + 6.25:.1f}L{cx + 12.5:.1f} {cy:.1f}L{cx:.1f} {cy - 6.25:.1f}Z" fill="#07111a" stroke="{LINE}" stroke-width=".45"/>
+  <path d="M{cx - 12.5:.1f} {top_y:.1f}L{cx:.1f} {top_y + 6.25:.1f}V{cy + 6.25:.1f}L{cx - 12.5:.1f} {cy:.1f}Z" fill="{left}"/>
+  <path d="M{cx:.1f} {top_y + 6.25:.1f}L{cx + 12.5:.1f} {top_y:.1f}V{cy:.1f}L{cx:.1f} {cy + 6.25:.1f}Z" fill="{right}"/>
+  <path d="M{cx - 12.5:.1f} {top_y:.1f}L{cx:.1f} {top_y - 6.25:.1f}L{cx + 12.5:.1f} {top_y:.1f}L{cx:.1f} {top_y + 6.25:.1f}Z" fill="{roof}"/>{''.join(windows)}</g>'''))
+
+    body = f'''<defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#071a2b"/><stop offset=".55" stop-color="#06111d"/><stop offset="1" stop-color="{BG}"/></linearGradient>
+    <radialGradient id="moon"><stop stop-color="{TEXT}" stop-opacity=".22"/><stop offset="1" stop-color="{TEXT}" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="16" y="16" width="848" height="648" rx="12" fill="url(#night)"/>
+  <text x="34" y="49" class="mono" font-size="12" fill="{TEAL}">$ contributions --render city --last 365d</text>
+  <text x="34" y="82" class="ui" font-size="22" font-weight="800" fill="{TEXT}">CONTRIBUTION CITY</text>
+  <text x="34" y="106" class="mono" font-size="11" fill="{MUTED}">one block per day · height and light reflect activity</text>
+  {''.join(stars)}<circle cx="785" cy="153" r="42" fill="url(#moon)"/><circle cx="785" cy="153" r="13" fill="{TEXT}"/><circle cx="791" cy="148" r="12" fill="#071522"/>
+  <path d="M68 292L430 111L825 309L455 494Z" fill="#07111a" stroke="{LINE}" opacity=".72"/>
+  {''.join(item for _, item in sorted(buildings, key=lambda item: item[0]))}
+  <text x="34" y="626" class="mono" font-size="11" fill="{MUTED}"><tspan fill="{CYAN}" font-weight="700">{esc(data['contributions'])}</tspan> CONTRIBUTIONS · {active_days} ACTIVE DAYS</text>
+  <text x="846" y="626" text-anchor="end" class="mono" font-size="11" fill="{MUTED}">BUSIEST: {busiest_date.strftime('%b %d').upper()} · <tspan fill="{TEXT}">{busiest}</tspan></text>'''
+    write("contribution-city.svg", shell(880, 680, "Contribution city", "Isometric city generated from GitHub contributions", body))
 
 
 def render_project(project: tuple[object, ...]) -> None:
@@ -265,23 +304,6 @@ def render_project(project: tuple[object, ...]) -> None:
     write(f"card-{slug}.svg", shell(440, 220, str(title), " ".join(description), body))
 
 
-def render_stack() -> None:
-    groups = [
-        ("LANGUAGES", "Python · Java · TypeScript · JavaScript · C#", CYAN),
-        ("FRAMEWORKS", "React · Spring Boot · FastAPI · Express · ReactPy", PURPLE),
-        ("DATA", "PostgreSQL · Redis · Hibernate · pandas · Beautiful Soup", TEAL),
-        ("CLOUD & DELIVERY", "AWS · Terraform · Docker · GitHub Actions · Nginx", AMBER),
-        ("OPERATIONS", "Linux · Prometheus · Grafana · SNMP · Wazuh", BLUE),
-    ]
-    rows = []
-    for index, (label, values, accent) in enumerate(groups):
-        y = 77 + index * 51
-        rows.append(f'''<g><rect x="28" y="{y}" width="824" height="38" rx="8" fill="{PANEL}" stroke="{LINE}"/><rect x="28" y="{y}" width="6" height="38" rx="3" fill="{accent}"/><text x="51" y="{y + 24}" class="mono" font-size="10" font-weight="700" fill="{accent}">{esc(label)}</text><text x="222" y="{y + 24}" class="mono" font-size="12" fill="{TEXT}">{esc(values)}</text></g>''')
-    body = f'''<text x="28" y="35" class="mono" font-size="12" fill="{TEAL}">$ capabilities --grouped</text>
-  <text x="852" y="35" text-anchor="end" class="mono" font-size="10" fill="{MUTED}">TOOLS USED ACROSS CURRENT PROJECTS</text>{''.join(rows)}'''
-    write("stack.svg", shell(880, 352, "Technology stack", "Technology groups used across current projects", body))
-
-
 def render_footer() -> None:
     body = f'''<path d="M24 24H856" stroke="{LINE}"/><text x="28" y="54" class="mono" font-size="11" fill="{MUTED}">guilherme@ops-console:~$</text><rect x="197" y="41" width="9" height="16" fill="{CYAN}" class="blink"/><text x="852" y="54" text-anchor="end" class="mono" font-size="10" fill="{TEAL}">CONNECTION ACTIVE</text>'''
     write("footer.svg", shell(880, 78, "Profile footer", "Connection active", body))
@@ -300,7 +322,7 @@ def main() -> None:
     section_asset("projects.svg", "SELECTED SYSTEMS", "ls ./projects --featured")
     for project in PROJECTS:
         render_project(project)
-    render_stack()
+    section_asset("stack.svg", "TECH STACK", "inspect ./capabilities --cards")
     render_footer()
     print(f"profile assets generated for {USER} ({data['updated']})")
 
