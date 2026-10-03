@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import base64
 import datetime as dt
 import html
 import json
@@ -14,6 +15,7 @@ USER = "GuilhermeGms3"
 ROOT = Path(__file__).resolve().parents[2]
 ASSETS = ROOT / "assets"
 DATA_FILE = Path(__file__).with_name("data.json")
+ICONS_DIR = Path(__file__).with_name("icons")
 API = "https://api.github.com/graphql"
 
 BG, PANEL, PANEL_2, LINE = "#05080d", "#0a111a", "#0d1722", "#1f3545"
@@ -41,6 +43,31 @@ PROJECTS = [
     ("network-monitor", "NETWORK MONITOR", "NETWORK / TELEMETRY",
      ("SNMP telemetry for device health", "and interface traffic visibility."),
      ("PYTHON", "SNMP", "DOCKER"), RED, "W"),
+]
+
+STACK_GROUPS = [
+    ("LANGUAGES", CYAN, (
+        ("C#", "csharp.svg"), ("Python", "python-static.svg"), ("Java", "java.svg"),
+        ("TypeScript", "typescript.svg"), ("JavaScript", "javascript-static.svg"),
+        ("C++", "cpp.svg"), ("PowerShell", "powershell.svg"), ("Bash", "bash.svg"),
+    )),
+    ("FRAMEWORKS & DATA", PURPLE, (
+        ("Spring", "spring.svg"), ("Hibernate", "hibernate.svg"),
+        ("FastAPI", "fastapi.svg"), ("Express", "express.svg"),
+        ("React", "react-static.svg"), ("ReactPy", "python-static.svg"),
+        ("pandas", "pandas.svg"), ("BeautifulSoup", "python-static.svg"),
+    )),
+    ("TOOLING", TEAL, (
+        ("PostgreSQL", "postgres.svg"), ("Redis", "redis.svg"), ("Git", "git.svg"),
+        ("GitHub", "github.svg"), ("GitLab", "gitlab.svg"), ("Docker", "docker.svg"),
+        ("Nginx", "nginx.svg"), ("Postman", "postman.svg"),
+    )),
+    ("CLOUD & OPERATIONS", AMBER, (
+        ("AWS", "aws.svg"), ("Terraform", "terraform.svg"),
+        ("Actions", "githubactions.svg"), ("Linux", "linux.svg"),
+        ("Prometheus", "prometheus.svg"), ("Grafana", "grafana.svg"),
+        ("Wazuh", "wazuh.png"), ("SNMP", "snmp.svg"),
+    )),
 ]
 
 
@@ -304,6 +331,43 @@ def render_project(project: tuple[object, ...]) -> None:
     write(f"card-{slug}.svg", shell(440, 220, str(title), " ".join(description), body))
 
 
+def icon_data_uri(filename: str) -> str:
+    path = ICONS_DIR / filename
+    mime = "image/png" if path.suffix == ".png" else "image/svg+xml"
+    encoded = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:{mime};base64,{encoded}"
+
+
+def render_stack() -> None:
+    rows = []
+    icon_index = 0
+    for row_index, (group, accent, technologies) in enumerate(STACK_GROUPS):
+        y = 82 + row_index * 111
+        rows.append(
+            f'<text x="28" y="{y - 9}" class="mono" font-size="9" font-weight="700" '
+            f'letter-spacing="1.2" fill="{accent}">{esc(group)}</text>'
+        )
+        for column, (label, filename) in enumerate(technologies):
+            x = 28 + column * 103
+            delay = -(icon_index % 12) * .17
+            rows.append(f'''<g transform="translate({x} {y})">
+  <rect width="95" height="84" rx="10" fill="{PANEL}" stroke="{LINE}"/>
+  <path d="M10 1H85" stroke="{accent}" stroke-width="2" opacity=".8"/>
+  <image class="float" x="25.5" y="9" width="44" height="44" href="{icon_data_uri(filename)}" style="animation-delay:{delay:.2f}s"/>
+  <text x="47.5" y="72" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="{TEXT}">{esc(label)}</text>
+</g>''')
+            icon_index += 1
+    body = f'''<style>
+    .float {{ animation: float 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }}
+    @keyframes float {{ 0%, 100% {{ transform: translateY(0); }} 50% {{ transform: translateY(-3px); }} }}
+    @media (prefers-reduced-motion: reduce) {{ .float {{ animation: none; }} }}
+  </style>
+  <text x="28" y="35" class="mono" font-size="12" fill="{TEAL}">$ inspect ./capabilities --cards</text>
+  <text x="28" y="64" class="ui" font-size="22" font-weight="800" fill="{TEXT}">TECH STACK</text>
+  <text x="852" y="35" text-anchor="end" class="mono" font-size="10" fill="{MUTED}">SELF-HOSTED ICON MATRIX</text>{''.join(rows)}'''
+    write("stack.svg", shell(880, 524, "Technology stack", "Languages, frameworks, tooling and operations technologies", body))
+
+
 def render_footer() -> None:
     body = f'''<path d="M24 24H856" stroke="{LINE}"/><text x="28" y="54" class="mono" font-size="11" fill="{MUTED}">guilherme@ops-console:~$</text><rect x="197" y="41" width="9" height="16" fill="{CYAN}" class="blink"/><text x="852" y="54" text-anchor="end" class="mono" font-size="10" fill="{TEAL}">CONNECTION ACTIVE</text>'''
     write("footer.svg", shell(880, 78, "Profile footer", "Connection active", body))
@@ -322,7 +386,7 @@ def main() -> None:
     section_asset("projects.svg", "SELECTED SYSTEMS", "ls ./projects --featured")
     for project in PROJECTS:
         render_project(project)
-    section_asset("stack.svg", "TECH STACK", "inspect ./capabilities --cards")
+    render_stack()
     render_footer()
     print(f"profile assets generated for {USER} ({data['updated']})")
 
