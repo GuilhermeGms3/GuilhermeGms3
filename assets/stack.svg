@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="352" viewBox="0 0 880 352" role="img" aria-labelledby="title desc">
+  <title id="title">Technology stack</title><desc id="desc">Technology groups used across current projects</desc>
+  <style>
+    .mono { font-family: "JetBrains Mono", "Cascadia Code", Consolas, monospace; }
+    .ui { font-family: "Segoe UI", Arial, sans-serif; }
+    .scan { animation: scan 6s linear infinite; opacity: .16; }
+    .blink { animation: blink 1.1s steps(2,start) infinite; }
+    @keyframes scan { from { transform: translateX(-220px); } to { transform: translateX(1100px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect width="880" height="352" rx="16" fill="#05080d"/>
+  <rect x="1" y="1" width="878" height="350" rx="15" fill="none" stroke="#1f3545" stroke-width="2"/>
+  <text x="28" y="35" class="mono" font-size="12" fill="#2dd4bf">$ capabilities --grouped</text>
+  <text x="852" y="35" text-anchor="end" class="mono" font-size="10" fill="#7e95a3">TOOLS USED ACROSS CURRENT PROJECTS</text><g><rect x="28" y="77" width="824" height="38" rx="8" fill="#0a111a" stroke="#1f3545"/><rect x="28" y="77" width="6" height="38" rx="3" fill="#22d3ee"/><text x="51" y="101" class="mono" font-size="10" font-weight="700" fill="#22d3ee">LANGUAGES</text><text x="222" y="101" class="mono" font-size="12" fill="#e6f1f5">Python · Java · TypeScript · JavaScript · C#</text></g><g><rect x="28" y="128" width="824" height="38" rx="8" fill="#0a111a" stroke="#1f3545"/><rect x="28" y="128" width="6" height="38" rx="3" fill="#a78bfa"/><text x="51" y="152" class="mono" font-size="10" font-weight="700" fill="#a78bfa">FRAMEWORKS</text><text x="222" y="152" class="mono" font-size="12" fill="#e6f1f5">React · Spring Boot · FastAPI · Express · ReactPy</text></g><g><rect x="28" y="179" width="824" height="38" rx="8" fill="#0a111a" stroke="#1f3545"/><rect x="28" y="179" width="6" height="38" rx="3" fill="#2dd4bf"/><text x="51" y="203" class="mono" font-size="10" font-weight="700" fill="#2dd4bf">DATA</text><text x="222" y="203" class="mono" font-size="12" fill="#e6f1f5">PostgreSQL · Redis · Hibernate · pandas · Beautiful Soup</text></g><g><rect x="28" y="230" width="824" height="38" rx="8" fill="#0a111a" stroke="#1f3545"/><rect x="28" y="230" width="6" height="38" rx="3" fill="#f59e0b"/><text x="51" y="254" class="mono" font-size="10" font-weight="700" fill="#f59e0b">CLOUD &amp; DELIVERY</text><text x="222" y="254" class="mono" font-size="12" fill="#e6f1f5">AWS · Terraform · Docker · GitHub Actions · Nginx</text></g><g><rect x="28" y="281" width="824" height="38" rx="8" fill="#0a111a" stroke="#1f3545"/><rect x="28" y="281" width="6" height="38" rx="3" fill="#38bdf8"/><text x="51" y="305" class="mono" font-size="10" font-weight="700" fill="#38bdf8">OPERATIONS</text><text x="222" y="305" class="mono" font-size="12" fill="#e6f1f5">Linux · Prometheus · Grafana · SNMP · Wazuh</text></g>
+</svg>
