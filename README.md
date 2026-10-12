@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Guilherme Aires — software engineering student building products, automation and infrastructure." />
+  <img src="./assets/header.svg" width="100%" alt="Guilherme Aires — building software, automation and infrastructure." />
   <img src="./assets/links.svg" width="100%" alt="Connect with Guilherme" />
   <a href="https://www.linkedin.com/in/guilhermegms3/"><img src="./assets/links/linkedin.svg" width="25%" alt="LinkedIn" /></a><a href="https://terminal-core-six.vercel.app"><img src="./assets/links/portfolio.svg" width="25%" alt="Portfolio" /></a><a href="https://gitlab.com/GuilhermeGms3"><img src="./assets/links/gitlab.svg" width="25%" alt="GitLab" /></a><a href="https://github.com/GuilhermeGms3"><img src="./assets/links/github.svg" width="25%" alt="GitHub" /></a>
   <img src="./assets/stats.svg" width="100%" alt="GitHub activity and language statistics" />

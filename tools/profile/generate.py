@@ -195,7 +195,7 @@ def render_header() -> None:
   <path d="M30 58H850" stroke="{LINE}"/>
   <text x="44" y="96" class="mono" font-size="14" fill="{TEAL}">$ identity --resolve</text>
   <text x="44" y="157" class="ui" font-size="48" font-weight="800" fill="{TEXT}">Guilherme Aires</text>
-  <text x="47" y="190" class="mono" font-size="15" fill="{CYAN}">SOFTWARE ENGINEERING STUDENT // BUILDER</text>
+  <text x="47" y="190" class="mono" font-size="15" fill="{CYAN}">SOFTWARE DEVELOPMENT // AUTOMATION</text>
   <text x="47" y="228" class="mono" font-size="13" fill="{MUTED}">NOC · DEVOPS · BACKEND · PRODUCT ENGINEERING</text>
   <text x="47" y="264" class="mono" font-size="13" fill="{TEXT}">Building useful systems across product, cloud and operations.</text>
   <text x="47" y="299" class="mono" font-size="12" fill="{TEAL}">STATUS: ONLINE</text><rect x="169" y="287" width="9" height="16" fill="{CYAN}" class="blink"/>
